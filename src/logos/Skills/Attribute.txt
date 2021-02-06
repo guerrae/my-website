@@ -1,0 +1,14 @@
+Strokeicon: https://www.iconfinder.com/strokeicon :sql
+cobyne: https://www.iconfinder.com/cobynecz : Visual Studio
+Flatart: https://www.iconfinder.com/Flatart : Java, Python
+Pixel Bazaar: https://www.iconfinder.com/zlaten : github
+Alpar-Etele Meder: https://www.iconfinder.com/pocike : git
+Erik Ragnar Eliasson: https://www.iconfinder.com/Erik_Rgnr : sass, JS
+Samat Odedara: https://www.iconfinder.com/samatodedara : React
+W3C: https://www.iconfinder.com/search/?q=html : HTML
+https://icons8.com/icons/set/c : c++
+https://icons8.com/icons/set/material-ui : material ui
+
+https://icons8.com/
+https://www.iconfinder.com/
+

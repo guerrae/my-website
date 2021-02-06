@@ -1,0 +1,33 @@
+.Snake-Game-Board{
+    //background-color: black;
+    position: relative;
+    margin-top: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 590px;//600px
+    border: 2px solid black;
+}
+
+.Snake-Game-Board:after {//allows game board to be dynamic
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.snake-body{
+    background-color: black;
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    border: 1px solid white;
+    z-index: 2;
+}
+
+.snake-food{
+    background-color: #FFD700;
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    border: 1px solid white;
+    z-index: 1;
+}

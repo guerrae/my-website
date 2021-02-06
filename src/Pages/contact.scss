@@ -1,0 +1,35 @@
+.Contact{
+    background-color:  #f5f8ff;
+    //background-color: #1b1d1e;
+    //background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-body-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.contact-envelope{
+    margin: 0;
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-body-title{
+    text-align: center;
+    margin-top: 0;
+    //margin: 0;
+}
+
+.Contact-Footer{
+    margin-top: auto;
+}

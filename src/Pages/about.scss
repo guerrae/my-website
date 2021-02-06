@@ -1,0 +1,105 @@
+.About{
+    background-color:  #f5f8ff;
+    //background: linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.1));
+    //font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+//----------------------------------------------------------Start About Body----------------------------------------------------------------------
+.About-Body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1% 10% 0% 10%;
+
+        .about-body-img{
+            width: 27%;
+            height: 27%;
+            box-shadow: 0px 0px 10px 0px #000000;
+            border-radius: 5px;
+            //width: 51%; 35%
+            //height: 51%; 35%
+        }
+        .about-body-content{
+            margin-top: -16px;
+            padding-left: 3%;
+            text-align: left;
+
+            .about-content-title{
+                font-family: 'Roboto Slab', serif;
+                font-weight: bold;
+            }
+            .about-content-paragraph{
+                font-family: 'Open Sans', sans-serif;
+                text-align: justify;
+                color: black;
+            }
+        }
+}
+//----------------------------------------------------------End About Body---------------------------------------------------------------------
+
+//--------------------------------------------------------Start About Skills---------------------------------------------------------------------
+.skill-title{
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.about-skills{
+    width: 60%;
+    display: block;
+    margin: auto;
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: #000;
+        border: #FFD700 solid 1px;
+    }
+    .swiper-pagination-bullet{
+        border: #FFD700 solid 1px;
+    }
+    .swiper-container{
+        height: 100px;
+        margin-bottom: 1%;
+        padding-bottom: 20px;
+    }
+    .swiper-slide{
+        width: auto;
+    }
+    .swiper-pagination{
+        position: absolute;
+        bottom: 0;
+    }
+} 
+//---------------------------------------------------------End About Skills---------------------------------------------------------------------
+
+@media screen and (max-width: 960px){
+    .About-Body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 10% 5% 10%;
+
+        .about-body-img{
+            width: 100%;
+            height: 100%;
+        }
+        .about-body-content{
+            padding-left: 0%;
+            text-align: left;
+        }
+    }
+}
+
+.About-Footer{
+    margin-top: auto;
+}

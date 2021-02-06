@@ -1,0 +1,145 @@
+.home{
+  background-color: black;
+}
+
+.home-nav{
+    position: absolute;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------------------
+//swiper
+.home-body{
+    //margin: 0;
+    
+  //swiper content style
+  .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  //swiper pagination color
+  .swiper-pagination-bullet-active{
+    background-color: #FFD700;
+    border: #FFD700 solid 1px;
+  }
+  
+  //Project Page
+  .home-one{
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../logos/Projects.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+    .home-one-h{
+      margin: 0;
+      font-size: 5em;
+    }
+    .home-one-p{
+      font-size: 1.2em; 
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  //Games Page
+  .home-two{
+    background-color: black;
+    background: url('../logos/Games.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+    .home-two-h{
+      margin: 0;
+      font-size: 5em;
+    }
+    .home-two-p{
+      //margin: 0 5% 0 5%;
+      font-size: 1.2em;
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      
+    }
+  }
+
+  //About Page
+  .home-three{
+    background-color: gray;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('../logos/About.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    //color: black;
+    color: white;
+
+    .home-three-h{
+      margin: 0;
+      font-size: 5em;
+    }
+    .home-three-p{
+      font-size: 1.2em;
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  //Contact Page
+  .home-four{
+    background-color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../logos/Contact.jpg');
+    //background-position: right bottom;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+
+    .home-four-h{
+      margin: 0;
+      font-size: 4.5em;
+    }
+    .home-four-p{
+      font-size: 1.2em;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+}
+
+//Swiper size and location
+.swiper-container{
+    //width: 100%;
+    height: 79vh;
+    position: absolute;
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------------
+
+//footer size and location
+.home-footer{
+    position: absolute;
+    width: 100%;
+    //margin-top: auto;
+}
+
+//Dark mode
+@media (prefers-color-scheme: dark) {
+  .home-four{
+      background-color: black;
+      color: white;
+  }
+}

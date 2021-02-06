@@ -1,0 +1,219 @@
+.employee{
+    //font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+//main heding
+.employee-h-one{
+    font-size: 46px;
+    text-align: center;
+}
+
+//paragraph
+.employee-p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    //font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+//project info box ************************************************************************************************************************
+.employee-info{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #202324;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    margin: 6% 0 6% 0;
+    //max-width: 90%;
+    //flex-direction: row;
+    //flex-wrap: wrap;
+    //width: 100%;
+
+    .employee-column{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        margin: 0 3% 2% 8%;
+    }
+    
+    .employee-column h6{
+        font-size: 14px;
+        margin: 6% 0 0 0;
+        color: #FFD700;
+    }
+
+    .employee-column ul{
+        list-style: none;
+        font-size: 14px;
+        margin: 2px 0;
+        padding: 0;
+    }
+
+    .employee-column a{
+        color: white;
+        text-decoration-color: #FFD700;
+        text-decoration-thickness: 1px;
+    }
+
+    .employee-column a:hover{
+        text-decoration-thickness: 2px;
+        font-weight: bold;
+    }
+}//project info box ******************************************************************************************************************
+
+//main image
+.employee-img{
+    box-shadow: 0px 0px 8px 0px #000000;
+    width: 100%;
+    height: 100%;
+}
+
+//-------------------------------------------------------image slider contents-----------------------------------------------------------------------
+.employee-img2{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 8px 0px #000000;
+    border-radius: 5px;
+} 
+
+.employee-slider{
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 850px;
+}
+
+.employee-slider:after {//allows image slide to be dynamic
+    content: "";
+    display: block;
+    padding-bottom: 50%;
+  }
+
+.employee-arrow-left{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.employee-arrow-right{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.employee-slider:hover{
+    .employee-arrow-left{
+        cursor: pointer;
+        transform: translate(-20px);
+    }
+    .employee-arrow-right{
+        cursor: pointer;
+        transform: translate(20px);
+    }
+}
+
+.employee-slider-fadeOut{
+    opacity: 0;
+    transition-duration: 3s ease;
+}
+
+.employee-slider-fadeIn{
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 0;
+    }
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+    }
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    100% {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+@keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 0;
+    }
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+    }
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    100% {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+} 
+//---------------------------------------------End image slider contents------------------------------------------------------------------------------
+
+//CSS conditions when screen size gets smaller
+@media screen and (max-width: 960px){
+    .employee{
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .employee-h-one{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .employee-p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 10px;
+    }
+}
