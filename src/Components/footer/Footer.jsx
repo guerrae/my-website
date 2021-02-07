@@ -20,7 +20,7 @@ class Footer extends React.Component{
                     </a>
                 </div>
                 <div className="footer-title">
-                    Efrain Guerra {(new Date().getFullYear())}
+                    Efrain Guerra JR {(new Date().getFullYear())}
                 </div>
             </div>
         )
