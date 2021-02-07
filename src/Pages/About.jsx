@@ -1,8 +1,8 @@
-import "./about.scss";
 import React from "react";
 import {Link} from "react-router-dom";
 import Nav from "../Components/navbar/Navbar";
 import Footer from "../Components/footer/Footer";
+import "./about.scss";
 import mugShotImg from "../logos/mugShot.jpg";
 
 //Skills

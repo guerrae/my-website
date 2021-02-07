@@ -3,7 +3,7 @@
     //background-color: #1b1d1e;
     //background-color: gray;
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -11,8 +11,8 @@
 .contact-body{
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
-    margin-bottom: 0;
+    //margin-top: 2px;
+    //margin-bottom: 0;
 }
 
 .contact-envelope{
@@ -21,7 +21,7 @@
     height: 10%;
     display: block;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 
 .contact-body-title{
