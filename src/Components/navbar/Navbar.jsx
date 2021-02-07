@@ -33,7 +33,7 @@ class Navbar extends React.Component{
         return(
             <nav className="Navbar">
                 <div className="nav-myName">
-                    <a className="nav-myName-link" href="/">EFRAIN GUERRA 1</a>
+                    <a className="nav-myName-link" href="/">EFRAIN GUERRA 2</a>
                 </div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     {this.state.onMobile ? <CloseRoundedIcon style={{ fontSize: 40 }}/> : <MenuRoundedIcon style={{ fontSize: 40 }}/>}
