@@ -131,7 +131,8 @@
 
 //footer size and location
 .home-footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     //margin-top: auto;
+    margin-bottom: 0;
 }
