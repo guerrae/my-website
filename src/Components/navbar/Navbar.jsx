@@ -2,6 +2,7 @@ import React from 'react';
 import {NavItems} from './NavItems';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 import CloseRoundedIcon from '@material-ui/icons/CloseRounded';
+import {Link} from 'react-router-dom';
 import './Navbar.scss';
 
 class Navbar extends React.Component{
@@ -33,7 +34,7 @@ class Navbar extends React.Component{
         return(
             <nav className="Navbar">
                 <div className="nav-myName">
-                    <a className="nav-myName-link" href="/">EFRAIN GUERRA 6</a>
+                    <a className="nav-myName-link" href="/">EFRAIN GUERRA 3</a>
                 </div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     {this.state.onMobile ? <CloseRoundedIcon style={{ fontSize: 40 }}/> : <MenuRoundedIcon style={{ fontSize: 40 }}/>}
@@ -42,7 +43,7 @@ class Navbar extends React.Component{
                     {NavItems.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>{item.title}</a>
+                                <Link className={item.cName} to={item.url}>{item.title}</Link>
                             </li>
                         )
                     })}

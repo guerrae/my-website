@@ -57,10 +57,9 @@ class About extends React.Component{
                 </div>
                 <h1 className="skill-title">Skills & Experience</h1>
                 <div className="about-skills">
-                    <Swiper spaceBetween={70} slidesPerView={'auto'} direction={"horizontal"} centeredSlidesBounds={true} 
-                        mousewheel={{ forceToAxis: true }} pagination={{ clickable: true }} keyboard={{enabled: true}} 
-                        autoplay={{AutoplayOptions: true, delay: 2000}} onSwiper={(swiper) => console.log(swiper)} 
-                        onSlideChange={() => console.log("slide change")}>
+                    <Swiper spaceBetween={70} slidesPerView={'auto'} direction={"horizontal"} mousewheel={{ forceToAxis: true }}
+                        pagination={{ clickable: true }} keyboard={{enabled: true}} autoplay={{AutoplayOptions: true, delay: 2000}}
+                        onSwiper={(swiper) => console.log(swiper)} onSlideChange={() => console.log("slide change")}>
                         <SwiperSlide ><img className="skill-1" src={skill1} alt="skill-img"/></SwiperSlide>
                         <SwiperSlide className="skill-2"><img src={skill2} alt="skill-img"/></SwiperSlide>
                         <SwiperSlide className="skill-3"><img src={skill3} alt="skill-img"/></SwiperSlide>

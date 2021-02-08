@@ -52,7 +52,7 @@
 .about-skills{
     //width: 60%;
     //display: block;
-    margin: 0 auto;
+    //margin: 0 auto;
 
     img{
         max-width: 100%;
@@ -69,9 +69,9 @@
     .swiper-container{
         height: 100px;
         width: 60%;
-        margin-bottom: 1%;
         padding-bottom: 20px;
         overflow: hidden;
+        margin: 0 20% 1%;
     }
     .swiper-slide{
         width: auto;
@@ -99,6 +99,10 @@
             padding-left: 0%;
             text-align: left;
         }
+    }
+
+    .about-skills{
+        margin-bottom: 35%;
     }
 }
 
