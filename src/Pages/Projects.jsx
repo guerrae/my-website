@@ -2,6 +2,7 @@ import React from "react";
 import {Redirect} from "react-router-dom";
 import Nav from "../Components/navbar/Navbar";
 import Footer from "../Components/footer/Footer";
+import {Helmet} from "react-helmet";
 import "./projects.scss";
 import Cards from "../Components/cards/ProjectCards";
 import Robot from "../Components/Projects/robot/Robot";
@@ -27,6 +28,7 @@ class Projects extends React.Component{
     render(){
         return(
             <div className="Projects">
+                <Helmet><title>Efrain Guerra | Projects</title></Helmet>
                 <div className="Projects-Header">
                     <Nav/>
                 </div>

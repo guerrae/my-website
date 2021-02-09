@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Nav from "../Components/navbar/Navbar";
 import Footer from "../Components/footer/Footer";
+import {Helmet} from "react-helmet";
 import "./contact.scss"
 import {makeStyles} from "@material-ui/core/styles"
 import {Grid, TextField, Paper, Button} from "@material-ui/core"
@@ -124,6 +125,7 @@ export default function Contact() {
 
     return(
         <div className="Contact">
+            <Helmet><title>Efrain Guerra | Contact</title></Helmet>
             <div className="Contact-Header">
                 <Nav/>
             </div>

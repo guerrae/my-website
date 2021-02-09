@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Nav from "../Components/navbar/Navbar";
 import Footer from "../Components/footer/Footer";
+import {Helmet} from "react-helmet";
 import "./about.scss";
 import mugShotImg from "../logos/mugShot.jpg";
 
@@ -32,6 +33,7 @@ class About extends React.Component{
     render(){
         return(
             <div className="About">
+                <Helmet><title>Efrain Guerra | About</title></Helmet>
                 <div className="About-Header">
                     <Nav/>
                 </div>
