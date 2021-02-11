@@ -1,7 +1,7 @@
 //Image Import for Projects
 import robotImg from "../../logos/projects/robot7.jpg"
 import passManagerImg from "../../logos/temp_img.jpg"
-import mirrorImg from "../../logos/temp_img.jpg"
+import mirrorImg from "../../logos/projects/smartMirror1.jpg"
 import employeeImg from "../../logos/projects/employee0.png"
 import cnpImg from "../../logos/projects/cnp1.jpg"
 //Image Import for Games
@@ -14,7 +14,7 @@ import spaceImg from "../../logos/temp_img.jpg"
 export const projectComponenet = [
     {
         imgName: cnpImg, 
-        title: "CenterPoint", 
+        title: "CenterPoint Fall 19", 
         content: "Front-end and Back-end Ticket Tracker", 
         urlName1: "",
         url1: "", 
@@ -44,13 +44,13 @@ export const projectComponenet = [
     },
     {
         imgName: cnpImg, 
-        title: "CenterPoint2", 
+        title: "CenterPoint Summer 20", 
         content: "Developed Web Automated Programs", 
         urlName1: "",
         url1: "", 
         urlName2: "",
         url2: "", 
-        url3: "/projects/centerpoint-two"
+        url3: "/projects/centerpoint-summer20"
     },
     {
         imgName: mirrorImg, 
@@ -60,7 +60,7 @@ export const projectComponenet = [
         url1: "", 
         urlName2: "",
         url2: "",
-        url3: "/projects/collection"
+        url3: "/projects/smart-mirror"
     },
     {
         imgName: passManagerImg, 
@@ -70,7 +70,7 @@ export const projectComponenet = [
         url1: "", 
         urlName2: "",
         url2: "",
-        url3: "/projects/collection"
+        url3: "/projects/password-manager"
     },
 ]
 

@@ -8,6 +8,9 @@ import Cards from "../Components/cards/ProjectCards";
 import Robot from "../Components/Projects/robot/Robot";
 import Employee from "../Components/Projects/employeePortal/Employee";
 import CenterPointOne from "../Components/Projects/centerPointOne/CenterPointOne";
+import CenterPointTwo from "../Components/Projects/centerPointTwo/CenterPointTwo";
+import Mirror from "../Components/Projects/mirror/Mirror";
+import PassManager from "../Components/Projects/passManager/PassManager";
 
 class Projects extends React.Component{
     renderComponent(){
@@ -20,6 +23,12 @@ class Projects extends React.Component{
                 return <Employee/>;
             case 'centerPointEnergy-fall19':
                 return <CenterPointOne/>;
+            case 'centerpoint-summer20':
+                return <CenterPointTwo/>;
+            case 'smart-mirror':
+                return <Mirror/>;
+            case 'password-manager':
+                return <PassManager/>;
             default:
                 return <Redirect to='/'/>;
         }

@@ -5,12 +5,6 @@ import cnpOneImg3 from '../../../logos/projects/cnp19_3.png';
 import cnpOneImg4 from '../../../logos/projects/cnp19_4.png';
 import cnpOneImg5 from '../../../logos/projects/cnp19_5.png';
 import cnpOneImg6 from '../../../logos/projects/cnp19_6.png';
-import cnpOneImg7 from '../../../logos/projects/cnp19_7.png';
-import cnpOneImg8 from '../../../logos/projects/cnp19_8.png';
-import cnpOneImg9 from '../../../logos/projects/cnp19_9.png';
-import cnpOneImg10 from '../../../logos/projects/cnp19_10.png';
-import cnpOneImg11 from '../../../logos/projects/cnp19_11.png';
-import cnpOneImg12 from '../../../logos/projects/cnp19_12.png';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import './centerPointOne.scss';
@@ -21,12 +15,6 @@ const cnpOneImgs = [
     cnpOneImg4,
     cnpOneImg5,
     cnpOneImg6,
-    cnpOneImg7,
-    cnpOneImg8,
-    cnpOneImg9,
-    cnpOneImg10,
-    cnpOneImg11,
-    cnpOneImg12,
 ]
 
 class CenterPointOne extends Component{
@@ -36,11 +24,11 @@ class CenterPointOne extends Component{
         if(this.state.currentImg >= 1)
             this.setState({currentImg: this.state.currentImg - 1});
         else
-            this.setState({currentImg: 10});
+            this.setState({currentImg: 4});
     }
 
     handleNext = () => {
-        if(this.state.currentImg <= 9)
+        if(this.state.currentImg <= 3)
             this.setState({currentImg: this.state.currentImg + 1});
         else
             this.setState({currentImg: 0});
