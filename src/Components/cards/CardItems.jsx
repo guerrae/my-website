@@ -5,7 +5,7 @@ import mirrorImg from "../../logos/projects/smartMirror1.jpg"
 import employeeImg from "../../logos/projects/employee0.png"
 import cnpImg from "../../logos/projects/cnp1.jpg"
 //Image Import for Games
-import ticTacImg from "../../logos/temp_img.jpg"
+import ticTacImg from "../../logos/games/TicTacToeLogo.PNG"
 import snakeImg from "../../logos/games/snakeLogo.png"
 import pingPongImg from "../../logos/temp_img.jpg"
 import spaceImg from "../../logos/temp_img.jpg"
@@ -80,9 +80,9 @@ export const gameComponenet = [
         imgName: ticTacImg, 
         title: "Tic-Tac-Toe", 
         content: "Single Player Tic-Tac-Toe", 
-        urlName: "", 
-        url: "",
-        url2: "/games/collection"
+        urlName: "GITHUB", 
+        url: "https://github.com/",
+        url2: "/games/tictactoe-game"
     },
     {
         imgName: snakeImg, 

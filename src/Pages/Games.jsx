@@ -5,6 +5,7 @@ import Footer from "../Components/footer/Footer";
 import {Helmet} from "react-helmet";
 import "./games.scss";
 import Cards from "../Components/cards/GameCards";
+import TicTacToe from "../Components/Games/TicTacToe/TicTacToeGame";
 import SnakeGame from "../Components/Games/snake/SnakeGame";
 
 class Games extends React.Component{
@@ -12,6 +13,8 @@ class Games extends React.Component{
         switch(this.props.match.params.gameComponent){
             case 'collection':
                 return <Cards/>;
+            case 'tictactoe-game':
+                return <TicTacToe/>;
             case 'snake-game':
                 return <SnakeGame/>;
             default:
