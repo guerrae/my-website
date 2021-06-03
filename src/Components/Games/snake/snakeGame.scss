@@ -1,10 +1,19 @@
 .Snake-Game-Board{
     //background-color: black;
+    background-color: #D3BFB1; 
+    background-image: linear-gradient(45deg, #CCB6A4 25%, transparent 25%, transparent 75%, #CCB6A4 75%, #CCB6A4), 
+                      linear-gradient(45deg, #CCB6A4 25%, transparent 25%, transparent 75%, #CCB6A4 75%, #CCB6A4); 
+    background-size: 60px 60px; 
+    background-position: 0px 0px, 30px 30px; 
+                        --darkreader-inline-bgcolor:#222426; 
+                        --darkreader-inline-bgimage:linear-gradient(45deg, #000000 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, #000000 75%, #000000), 
+                        linear-gradient(45deg, #000000 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, #000000 75%, #000000);
+    
     position: relative;
-    margin-top: 0.5%;
+    margin-top: 01%;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 590px;//600px
+    max-width: 75vh;//600px
     border: 2px solid black;
 }
 
@@ -12,22 +21,61 @@
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+}
+
+.snake-head{
+    background-color: #2ecc70;
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    border: 1px solid green;
+    border-radius: 35%;
+    z-index: 2;
+}
 
 .snake-body{
-    background-color: black;
+    background-color: #2ecc70;
     position: absolute;
-    width: 2%;
+    width: 4%;
+    height: 4%;
+    border: 1px solid green;
+    border-radius: 35%;
+    z-index: 2;
+}
+.snake-tail-one{
+    background-color: #2ecc70;
+    position: absolute;
+    margin-top: 7px;
+    width: 4%;
     height: 2%;
-    border: 1px solid white;
+    border: 1px solid green;
+    border-radius: 35%;
+    z-index: 2;
+}
+
+.snake-tail-two{
+    background-color: #2ecc70;
+    position: absolute;
+    margin-left: 6px;
+    width: 2%;
+    height: 4%;
+    border: 1px solid green;
+    border-radius: 35%;
     z-index: 2;
 }
 
 .snake-food{
-    background-color: #FFD700;
+    //background-color: #FFD700;
+    //background-color: #f5f8ff;
     position: absolute;
-    width: 2%;
-    height: 2%;
-    border: 1px solid white;
+    width: 4%;
+    height: 4%;
+    margin-top: 1px;
+    margin-left: 1px;
+    //border: 1px solid white;
     z-index: 1;
+}
+
+.SnakeModal-Button{
+    text-align: center;
 }
