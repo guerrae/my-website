@@ -26,11 +26,11 @@ const useStyles = makeStyles(theme =>({
     paper:{
         width: '50%',
         margin: 'auto',
-        marginTop: theme.spacing(3),
-        marginBottom: theme.spacing(3),
+        marginTop: theme.spacing(2),
+        marginBottom: theme.spacing(1),
         padding: theme.spacing(1),
         paddingRight: theme.spacing(3),
-        backgroundColor: 'white'
+        backgroundColor: '#f5f8ff'
     },
 
     button: {
@@ -131,7 +131,7 @@ export default function Contact() {
             </div>
             <div className="Contact-Body">
                 <form className={classes.root} onSubmit={sendEmail}>
-                    <Paper className={classes.paper} elevation={15}>
+                    <Paper className={classes.paper} elevation={9}>
                         <Grid container>
                             <Grid item xs={12} md={12}>
                                 <img className="contact-envelope" src={envelopeImg} alt="envelope"/>
@@ -187,13 +187,13 @@ export default function Contact() {
                </form>
                <Modal isOpen={modalOpen} onRequestClose={() => setModalOpen(false)}
                     style={{
-                    overlay: {backgroundColor: 'rgba(255, 255, 255, 0.75)', zIndex: '1'},
+                    overlay: {backgroundColor: 'rgba(48, 48, 48, 0.75)', zIndex: '1'},
                     content: {
                         width: '30%',
                         height: '40%',
                         margin: 'auto',
                         border: '1px solid #ccc',
-                        background: '#fff',
+                        background: '#f5f8ff',
                         overflow: 'auto',
                         //WebkitOverflowScrolling: 'touch',
                         borderRadius: '4px',
@@ -214,13 +214,13 @@ export default function Contact() {
                 </Modal>
                 <Modal isOpen={modalTwoOpen} onRequestClose={() => setModalTwoOpen(false)}
                     style={{
-                    overlay: {backgroundColor: 'rgba(255, 255, 255, 0.75)', zIndex: '1'},
+                    overlay: {backgroundColor: 'rgba(48, 48, 48, 0.75)', zIndex: '1'},
                     content: {
                         width: '30%',
                         height: '40%',
                         margin: 'auto',
                         border: '1px solid #ccc',
-                        background: '#fff',
+                        background: '#f5f8ff',
                         overflow: 'auto',
                         //WebkitOverflowScrolling: 'touch',
                         borderRadius: '4px',

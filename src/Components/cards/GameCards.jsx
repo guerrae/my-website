@@ -20,6 +20,7 @@ const useStyles = makeStyles({
     button: {
       //backgroundColor: 'black',
       color: 'black',
+      fontWeight: 'bold',
       '&:hover': {
           backgroundColor: '#FFD700',
           color: 'black'
@@ -43,7 +44,7 @@ export default function ImgMediaCard() {
         <Grid container justify="center" style={{paddingTop:'0em', margin:'0', width:'100%'}} spacing={4}>
             {gameComponenet.map((gCard, index) => (
                 <Grid item data-aos="fade-up" key={index}>
-                    <Card className={classes.root} style={{width:"300px", backgroundColor:"white"}} elevation={4}>
+                    <Card className={classes.root} style={{width:"300px", backgroundColor:"#f5f8ff"}} elevation={5}>
                     <CardActionArea href={gCard.url2}>
                         <CardMedia
                         component="img"

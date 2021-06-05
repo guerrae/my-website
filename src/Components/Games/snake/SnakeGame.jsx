@@ -201,13 +201,13 @@ class Snake extends Component{
                 {/* Display the game over box and allow user to restart game and select difficulty or exit the game */}
                 <Modal isOpen={this.state.modalOpen}
                     style={{
-                        overlay: {backgroundColor: 'rgba(255, 255, 255, 0.75)', zIndex: '1'},
+                        overlay: {backgroundColor: 'rgba(48, 48, 48, 0.75)', zIndex: '1'},
                         content: {
                             width: '25%',
                             height: '45%',
                             margin: 'auto',
                             border: '1px solid #ccc',
-                            background: '#ADADAD',
+                            background: '#f5f8ff',
                             overflow: 'auto',
                             //WebkitOverflowScrolling: 'touch',
                             borderRadius: '5px',
