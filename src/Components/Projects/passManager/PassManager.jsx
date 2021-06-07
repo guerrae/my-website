@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import passManagerImg1 from '../../../logos/temp_img.jpg';
+import passManagerImg1 from '../../../logos/projects/passManager/passManager0.PNG';
 //import passManagerImg2 from '../../../logos/temp_img.jpg';
 //import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 //import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';

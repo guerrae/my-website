@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import cnpOneImg1 from '../../../logos/projects/cnp19_1.png';
-import cnpOneImg2 from '../../../logos/projects/cnp19_2.png';
-import cnpOneImg3 from '../../../logos/projects/cnp19_3.png';
-import cnpOneImg4 from '../../../logos/projects/cnp19_4.png';
-import cnpOneImg5 from '../../../logos/projects/cnp19_5.png';
-import cnpOneImg6 from '../../../logos/projects/cnp19_6.png';
+import cnpOneImg1 from '../../../logos/projects/centerPoint/cnp19_1.png';
+import cnpOneImg2 from '../../../logos/projects/centerPoint/cnp19_2.png';
+import cnpOneImg3 from '../../../logos/projects/centerPoint/cnp19_3.png';
+import cnpOneImg4 from '../../../logos/projects/centerPoint/cnp19_4.png';
+import cnpOneImg5 from '../../../logos/projects/centerPoint/cnp19_5.png';
+import cnpOneImg6 from '../../../logos/projects/centerPoint/cnp19_6.png';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import './centerPointOne.scss';

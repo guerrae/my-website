@@ -56,11 +56,11 @@ function TicTacToeGame(){
             count++;
         }
 
-        //Place an "0" in the empty board piece
+        //Place an "O" in the empty board piece
         if(count !== 9)
             gameBoard[randTemp] = "O";
 
-        //update the gameBoard array and check for loss
+        //update the gameBoard array and check for loss or Draw
         setGameBoard([...gameBoard]);
         if(checkStat("O"))
             setUserNotice("You Lost!");

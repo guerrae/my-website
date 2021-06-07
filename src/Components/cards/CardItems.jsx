@@ -1,9 +1,10 @@
 //Image Import for Projects
-import robotImg from "../../logos/projects/robot7.jpg"
-import passManagerImg from "../../logos/temp_img.jpg"
-import mirrorImg from "../../logos/projects/smartMirror1.jpg"
-import employeeImg from "../../logos/projects/employee0.png"
-import cnpImg from "../../logos/projects/cnp1.jpg"
+import robotImg from "../../logos/projects/robot/robot7.jpg"
+import passManagerImg from "../../logos/projects/passManager/passManager0.PNG"
+//import passManagerImg from "../../logos/temp_img.jpg"
+import mirrorImg from "../../logos/projects/smartMirror/smartMirror0.jpg"
+import employeeImg from "../../logos/projects/employee/employee0.png"
+import cnpImg from "../../logos/projects/centerPoint/cnp1.jpg"
 //Image Import for Games
 import ticTacImg from "../../logos/games/TicTacToeLogo.PNG"
 import snakeImg from "../../logos/games/snakeLogo.png"
@@ -39,7 +40,7 @@ export const projectComponenet = [
         urlName1: "GITHUB",
         url1: "https://github.com/guerrae/Autonomous-Robot", 
         urlName2: "YOUTUBE",
-        url2: "https://www.youtube.com/channel/UCKEIn0wp3FEjn6iIAoU80Fg", 
+        url2: "https://www.youtube.com/playlist?list=PL39K2eqHjM5sDfIpc2ObBuHCzkdGksAZp", 
         url3: "/projects/maze-solving-robot"
     },
     {
@@ -58,8 +59,8 @@ export const projectComponenet = [
         content: "Raspberry Pi Controlled Smart Mirror", 
         urlName1: "",
         url1: "", 
-        urlName2: "",
-        url2: "",
+        urlName2: "YOUTUBE",
+        url2: "https://www.youtube.com/playlist?list=PL39K2eqHjM5v8lgJWT0UtdWnXx6UzGPUR",
         url3: "/projects/smart-mirror"
     },
     {
@@ -81,7 +82,7 @@ export const gameComponenet = [
         title: "Tic-Tac-Toe", 
         content: "Single Player Tic-Tac-Toe", 
         urlName: "GITHUB", 
-        url: "https://github.com/",
+        url: "https://github.com/guerrae/my-website/tree/master/src/Components/Games/TicTacToe",
         url2: "/games/tictactoe-game"
     },
     {
@@ -89,7 +90,7 @@ export const gameComponenet = [
         title: "Snake", 
         content: "Single Player Snake Game", 
         urlName: "GITHUB", 
-        url: "https://github.com/", 
+        url: "https://github.com/guerrae/my-website/tree/master/src/Components/Games/snake", 
         url2: "/games/snake-game"
     },
     {

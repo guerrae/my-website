@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
-import mirrorImg1 from '../../../logos/projects/smartMirror1.jpg';
-import mirrorImg2 from '../../../logos/projects/smartMirror2.jpg';
-import mirrorImg3 from '../../../logos/projects/smartMirror3.jpg';
-import mirrorImg4 from '../../../logos/projects/smartMirror4.jpg';
-import mirrorImg5 from '../../../logos/projects/smartMirror5.jpg';
-import mirrorImg6 from '../../../logos/projects/smartMirror6.jpg';
+import mirrorImg1 from '../../../logos/projects/smartMirror/smartMirror1.jpg';
+import mirrorImg2 from '../../../logos/projects/smartMirror/smartMirror2.jpg';
+import mirrorImg3 from '../../../logos/projects/smartMirror/smartMirror3.jpg';
+import mirrorImg4 from '../../../logos/projects/smartMirror/smartMirror4.jpg';
+import mirrorImg5 from '../../../logos/projects/smartMirror/smartMirror5.jpg';
+import mirrorImg6 from '../../../logos/projects/smartMirror/smartMirror6.jpg';
+import mirrorImg7 from '../../../logos/projects/smartMirror/smartMirror7.jpg';
+import mirrorImg8 from '../../../logos/projects/smartMirror/smartMirror8.jpg';
+import mirrorImg9 from '../../../logos/projects/smartMirror/smartMirror9.jpg';
+import mirrorImg10 from '../../../logos/projects/smartMirror/smartMirror10.jpg';
+import mirrorImg11 from '../../../logos/projects/smartMirror/smartMirror11.jpg';
+import mirrorImg12 from '../../../logos/projects/smartMirror/smartMirror12.jpg';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import './mirror.scss';
@@ -15,6 +21,11 @@ const robotImgs = [
     mirrorImg4,
     mirrorImg5,
     mirrorImg6,
+    mirrorImg7,
+    mirrorImg8,
+    mirrorImg9,
+    mirrorImg10,
+    mirrorImg11,
 ]
 
 class Mirror extends Component{
@@ -24,11 +35,11 @@ class Mirror extends Component{
         if(this.state.currentImg >= 1)
             this.setState({currentImg: this.state.currentImg - 1});
         else
-            this.setState({currentImg: 4});
+            this.setState({currentImg: 9});
     }
 
     handleNext = () => {
-        if(this.state.currentImg <= 3)
+        if(this.state.currentImg <= 8)
             this.setState({currentImg: this.state.currentImg + 1});
         else
             this.setState({currentImg: 0});
@@ -50,14 +61,14 @@ class Mirror extends Component{
                 {/*First Paragraph with Heding*/}
                 <h3 style={{fontFamily: 'Roboto Slab', marginBottom: 0}}>The Project</h3>
                 <p className="mirror-p">
-                    In today’s world, technology continues to grow more complex as new gadgets and devices flood the market. 
-                    Information is in abundance on the internet and is readily available from devices such as our smartphones, 
-                    tablets, and computers. However, oftentimes it requires tedious steps for users to access this information 
-                    since it is across several different applications, websites, and interfaces. By jumping back and forth through 
-                    apps and websites, time is wasted by the user. With this in mind, we’re constructing our project the Smart 
-                    Mirror. In this project we are aiming towards a device that seamlessly integrates into our daily routines 
-                    without any additional effort. By not requiring the user to physically interact with several different 
-                    applications or websites, our Smart Mirror will instead display the desired personalized information at a glance.
+                    In today’s world, technology continues to grow more complex as new gadgets and devices flood the market. Information 
+                    is in abundance on the internet and is readily available from devices such as our smartphones, tablets, and computers. 
+                    However, oftentimes it requires tedious steps for users to access this information since it is across several different 
+                    applications, websites, and interfaces. By jumping back and forth through apps and websites, time is wasted by the user. 
+                    With this in mind, we’re constructing our project, the Smart Mirror. In this project we are aiming towards a device 
+                    that seamlessly integrates into our daily routines without any additional effort. By not requiring the user to physically 
+                    interact with several different application or websites, our Smart Mirror will instead display the desired personalized 
+                    information at a glance.
                 </p>
 
                 {/*Image Slider*/}
@@ -78,8 +89,25 @@ class Mirror extends Component{
                 {/*Second Paragraph with Heding*/}
                 <h3 style={{fontFamily: 'Roboto Slab', margin: 0}}>The Results</h3>
                 <p className="mirror-p">
-                    Currently the project is still in development with an expected completion date of April 2021. More information 
-                    will become available as soon as the project is finalized. 
+                    The Smart Mirror project was a success. We accomplished all our goals and managed to stay below the budget, but most 
+                    importantly all our features worked as expected. Users are able to easily navigate through the software by using their 
+                    voice or by gesturing with their hands. The voice navigation is possible thanks to the addition of the Google Assistant 
+                    API which allows our users to ask any question and hear the reply through the on-board speaker. The addition of the Grove 
+                    Gesture sensor to our hardware gave our team the ability to provide our users with an alternative way to navigate the 
+                    software without touching the mirror. the sensor is capable of recognizing different gestures and for each gesture we 
+                    arranged the mirror to display a specific application. For example, when a user performs the “UP” gesture they will be 
+                    presented with the stock tracking application. Similarly, if the user performs the “DOWN” gesture they will be presented 
+                    with Google Maps application that will show them a traffic map of their current location as well as drive times to 
+                    pre-selected locations such as work or school. The Smart Mirror is also capable of mirroring the user’s phone, this allows 
+                    the user to share content such as images, videos and other items that can be shared to the mirror for others to see. Finally, 
+                    I would like to thank our professor Dr. Litvinov for his guidance and advice as well as my team for their contributions 
+                    towards the Smart Mirror project and for the successful accomplishment of our goals.<br/><br/>
+                </p>
+
+                {/*Team Image*/}
+                <img className="mirror-img" src={mirrorImg12} alt="mirror-pic" style={{width: '90%', height: '90%'}}/>
+                <p className="mirror-p" style={{textAlign: "center", fontSize: "14px"}}>
+                    Smart Mirror Team (left to right): Justin Do, Erica Dietz, Jason Nguyen, and Efrain Guerra
                 </p>
 
                 {/*Information Card*/}
@@ -92,6 +120,10 @@ class Mirror extends Component{
                         <h6>CLIENT</h6>
                         <ul>Dr.Dmitri Litvinov</ul>
                         <ul>UH Professor</ul>
+                        <h6>WEB</h6>
+                        <ul>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL39K2eqHjM5v8lgJWT0UtdWnXx6UzGPUR">YouTube</a>
+                        </ul>
                     </div>
                     <div className="mirror-column">
                         <h6>DELIVERABLES</h6>

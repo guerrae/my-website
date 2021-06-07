@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import cnpTwoImg1 from '../../../logos/projects/cnp20_1.png';
-import cnpTwoImg2 from '../../../logos/projects/cnp20_2.png';
-import cnpTwoImg3 from '../../../logos/projects/cnp20_3.png';
-import cnpTwoImg4 from '../../../logos/projects/cnp20_4.png';
-import cnpTwoImg5 from '../../../logos/projects/cnp20_5.png';
-import cnpTwoImg6 from '../../../logos/projects/cnp20_6.png';
-import cnpTwoImg7 from '../../../logos/projects/cnp20_7.png';
+import cnpTwoImg1 from '../../../logos/projects/centerPoint/cnp20_1.png';
+import cnpTwoImg2 from '../../../logos/projects/centerPoint/cnp20_2.png';
+import cnpTwoImg3 from '../../../logos/projects/centerPoint/cnp20_3.png';
+import cnpTwoImg4 from '../../../logos/projects/centerPoint/cnp20_4.png';
+import cnpTwoImg5 from '../../../logos/projects/centerPoint/cnp20_5.png';
+import cnpTwoImg6 from '../../../logos/projects/centerPoint/cnp20_6.png';
+import cnpTwoImg7 from '../../../logos/projects/centerPoint/cnp20_7.png';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import './centerPointTwo.scss';
@@ -90,7 +90,7 @@ class CenterPointOne extends Component{
                     For my final project I was tasked with developing a program that would store SAP information and allow the user 
                     to export the queried data to Excel and generate automatic emails. I design the application using VBA 
                     (Visual Basic for Applications) as my front-end and I used SQL as my database to store the SAP data the user uploaded. 
-                    App navigation is quick and easy, and all user were able to perform the tasks they requested.
+                    centerPoint/App navigation is quick and easy, and all user were able to perform the tasks they requested.
                 </p>
 
                 {/*Information Card*/}

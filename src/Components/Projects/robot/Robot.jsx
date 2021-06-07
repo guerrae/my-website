@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import robotImg1 from '../../../logos/projects/robot1.jpg';
-import robotImg2 from '../../../logos/projects/robot2.jpg';
-import robotImg3 from '../../../logos/projects/robot3.jpg';
-import robotImg4 from '../../../logos/projects/robot4.jpg';
-import robotImg5 from '../../../logos/projects/robot5.jpg';
-import robotImg6 from '../../../logos/projects/robot6.jpg';
+import robotImg1 from '../../../logos/projects/robot/robot1.jpg';
+import robotImg2 from '../../../logos/projects/robot/robot2.jpg';
+import robotImg3 from '../../../logos/projects/robot/robot3.jpg';
+import robotImg4 from '../../../logos/projects/robot/robot4.jpg';
+import robotImg5 from '../../../logos/projects/robot/robot5.jpg';
+import robotImg6 from '../../../logos/projects/robot/robot6.jpg';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import './robot.scss';
@@ -109,7 +109,7 @@ class Robot extends Component{
                         <h6>WEB</h6>
                         <ul><a target="_blank" rel="noopener noreferrer" href="https://github.com/guerrae/Autonomous-Robot">GitHub</a></ul>
                         <ul>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCKEIn0wp3FEjn6iIAoU80Fg">YouTube</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL39K2eqHjM5sDfIpc2ObBuHCzkdGksAZp">YouTube</a>
                         </ul>
                     </div>
                 </div>
