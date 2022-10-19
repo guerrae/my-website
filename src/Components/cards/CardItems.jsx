@@ -5,6 +5,8 @@ import passManagerImg from "../../logos/projects/passManager/passManager0.PNG"
 import mirrorImg from "../../logos/projects/smartMirror/smartMirror0.jpg"
 import employeeImg from "../../logos/projects/employee/employee0.png"
 import cnpImg from "../../logos/projects/centerPoint/cnp1.jpg"
+import stockAvgImg from "../../logos/projects/stockAvg/stockAvg_logo.png"
+import urlShortImg from "../../logos/temp_img.jpg"
 //Image Import for Games
 import ticTacImg from "../../logos/games/TicTacToeLogo.PNG"
 import snakeImg from "../../logos/games/snakeLogo.png"
@@ -72,6 +74,26 @@ export const projectComponenet = [
         urlName2: "",
         url2: "",
         url3: "/projects/password-manager"
+    },
+    {
+        imgName: stockAvgImg, 
+        title: "Stock Average", 
+        content: "Android App to Calculate Stock Averages", 
+        urlName1: "",
+        url1: "", 
+        urlName2: "",
+        url2: "",
+        url3: "/projects/collection"
+    },
+    {
+        imgName: urlShortImg, 
+        title: "URL Shortener", 
+        content: "Web App that Shortens URL's", 
+        urlName1: "",
+        url1: "", 
+        urlName2: "",
+        url2: "",
+        url3: "/projects/collection"
     },
 ]
 
