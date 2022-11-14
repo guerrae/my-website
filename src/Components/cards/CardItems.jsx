@@ -89,8 +89,8 @@ export const projectComponenet = [
         imgName: urlShortImg, 
         title: "URL Shortener", 
         content: "Web App that Shortens URL's", 
-        urlName1: "",
-        url1: "", 
+        urlName1: "LIVE DEMO",
+        url1: "https://www.miniurl.gq/", 
         urlName2: "",
         url2: "",
         url3: "/projects/collection"
